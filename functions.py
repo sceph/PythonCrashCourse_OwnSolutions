@@ -29,7 +29,7 @@ def favorite_book(title):
 favorite_book("Mona Lisa??")
 
 
-# Positional Arguments
+# POSITIONAL ARGUMENTS 
 # Definition
 """ Positional arguments need to be written in the same order as they are call at the end of the function. """
 
@@ -46,5 +46,18 @@ describe_pet("doggy", "pinis")
 # REMEBER ---  THIS IS USED FOR NOT REWRITING UNNESCESSARY CODE ---
 
 
+# KEYWORD ARGUMENTS
+# Definition
+""" A keyword argument is a name-value pair that you pass to a function. You directly associate the name and the value within the argument, so when you pass the argument to the function, there’s no confusion (you won’t end up with a harry named Hamster)."""
+
+def describe_pet_02(animal_type, pet_name):
+    """Display information about a pet."""
+    print("\nI have a " + animal_type + ".")
+    print("My " + animal_type + "'s name is " + pet_name.title() + ".")
+
+describe_pet_02(animal_type="hamster", pet_name="harry")
+
+
+""" NOTE: When you use keyword arguments, be sure to use the exact names of the parameters in the function’s definition."""
 
 
