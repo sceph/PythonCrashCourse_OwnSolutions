@@ -61,3 +61,24 @@ describe_pet_02(animal_type="hamster", pet_name="harry")
 """ NOTE: When you use keyword arguments, be sure to use the exact names of the parameters in the function’s definition."""
 
 
+# RETURNING A SIMPLE FUNCTION
+def get_formatted_name(first_name, last_name):
+    """ Return a full name, neatly formattet """
+    full_name = first_name + ' ' + last_name
+    return full_name.title()
+
+musician = get_formatted_name('john', 'cena')
+print(musician)
+
+
+print("\n")
+
+# Passing a list
+def greet_users(names):
+    """ Print a simple greeting to each user in the list. """
+    for name in names:
+        msg = "Hello, " + name.title() + "!"
+        print(msg)
+
+usernames = ['hannah', 'david', 'aurel']
+greet_users(usernames)
