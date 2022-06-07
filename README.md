@@ -1,1 +1,1 @@
-# Python Crash Course Try It Yourself - Own Solutions
+# Python Crash Course - Try It Yourself - Own Solutions
