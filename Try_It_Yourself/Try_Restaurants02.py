@@ -3,13 +3,13 @@
 # Class - Start
 class Restuarant():
     
-    def __init__(self, resturant_name, cuisine_type):
+    def __init__(self, restaurant_name, cuisine_type):
         self.restaurant_name = restaurant_name
         self.cuisine_type = cuisine_type
 
 
     def describe_restaurant(self):
-        print
+        print()
 
     def open_restaurant(self):
         print
